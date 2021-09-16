@@ -1,0 +1,30 @@
+#sampleid{
+    color: blueviolet;
+    text-align: center;
+}
+
+.text-success{
+    color: green;
+    
+}
+
+.text-danger{
+    color: red;
+}
+
+.container{
+     
+    margin-left: 450px;
+    border-color: black;
+    width: 390px;
+    height: 330px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 7px 10px 7px;
+    box-shadow: 5px 5px 6px -7px;
+
+}
+
+.me{
+    background-color: pink;
+}

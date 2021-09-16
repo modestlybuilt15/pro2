@@ -1,0 +1,21 @@
+<div class="container">
+<div [id]="idName" >
+    <h2 >Hello {{name}}</h2>
+  </div>
+  
+
+  <div [class]="check" style="text-align: center;"> 
+    <h3>Get started</h3>
+</div>  
+
+
+<div [style.color]="check?'green':'red'" style="text-align: center;">
+    <h3>Get started</h3>
+</div>
+
+
+<button class="me" (click)="onclick()">CLICK ME!</button><br><br>
+    <h2>{{change}}</h2>
+
+</div>
+
