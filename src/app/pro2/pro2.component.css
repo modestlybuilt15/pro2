@@ -1,0 +1,31 @@
+.head{
+    text-align: center;
+    color: rgb(139, 25, 150);
+    text-shadow: black;
+}
+
+
+.container1{
+   
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    min-width:300px;
+    float: right;
+    color: lightpink;
+   
+}
+
+.bottom{
+    text-align: center;
+    padding: 10px;
+}
+label
+{
+    font-weight: medium;
+    padding: 5px 0px;
+}
+
+.btn{
+    background-color: rgb(95, 19, 102);
+    color: lightpink;
+}

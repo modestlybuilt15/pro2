@@ -1,0 +1,25 @@
+h1{
+   margin-left: 60px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(95, 19, 102);
+}
+
+.main{
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    min-width:300px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.btn{
+    background-color: lightpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.items{
+    color: white;
+    margin-left: 100px;
+}
+

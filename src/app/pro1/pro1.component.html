@@ -1,21 +1,45 @@
+<div class="main" style="text-align: center; color: rgb(139, 25, 150); ">
+    <br><br><br>
+<h1>Welcome to Our Vibes App</h1>
+</div>
+
 <div class="container">
-<div [id]="idName" >
-    <h2 >Hello {{name}}</h2>
-  </div>
-  
+   
+    <div [id]="idName" >
+        <h4>Hey {{name}}</h4>
+      </div>
+      
+      <div class="email"  > 
+        <h5>Enter username</h5>
+        <input type="text" class="text" placeholder="Email id or username" >
+    </div>  
+    <br>
+    
+    
+    <div class= "pass">
+        <h5>Enter password</h5>
+        <input type="text" class="text" placeholder="Password" >
+    </div><br>
+    
+    
+    
+    <hr class="line">
+    
+    
+    
+    <button routerLink="/todolist-page" class="me" (click)="onclick()">AM IN</button><br><br>
+        <h2>{{change}}</h2>
+        
 
-  <div [class]="check" style="text-align: center;"> 
-    <h3>Get started</h3>
-</div>  
-
-
-<div [style.color]="check?'green':'red'" style="text-align: center;">
-    <h3>Get started</h3>
-</div>
-
-
-<button class="me" (click)="onclick()">CLICK ME!</button><br><br>
-    <h2>{{change}}</h2>
-
-</div>
-
+    <div class="footer">
+        <p>Don't have an account?<a class="sign" href="#" routerLink="/register-page">Sign Up</a></p>
+    </div>
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    

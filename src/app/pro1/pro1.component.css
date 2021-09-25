@@ -1,20 +1,19 @@
+
+
 #sampleid{
-    color: blueviolet;
+    color: rgb(8, 6, 10);
     text-align: center;
+    background-color: lightpink;
+    margin-top: -8px;
 }
-
-.text-success{
-    color: green;
-    
+.email{
+    margin-top: 30px;
 }
-
-.text-danger{
-    color: red;
-}
+ 
 
 .container{
-     
-    margin-left: 450px;
+    margin-top: 80px; 
+    margin-left: 470px;
     border-color: black;
     width: 390px;
     height: 330px;
@@ -22,9 +21,35 @@
     border-radius: 12px;
     padding: 30px 7px 10px 7px;
     box-shadow: 5px 5px 6px -7px;
+    background-color: lightpink;
 
 }
 
+
 .me{
-    background-color: pink;
+    background-color: rgb(10, 10, 10);
+    color: lightpink;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+
+}
+.line{
+    color: black;
+}
+
+.text{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.footer{
+    color: rgb(95, 19, 102);
+}
+
+.sign{
+    
+    color: rgb(95, 19, 102);
 }

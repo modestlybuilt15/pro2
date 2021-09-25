@@ -1,0 +1,72 @@
+<div class="main">
+    <h1>MY TO-DO LIST</h1>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <input type="text" class="search form-control" name="searchbox" #input>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <button type="submit" class="btn form-control" (click)="buttonFunction(input)">ADD TO LIST</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <ul class="items">
+        
+        <li *ngFor="let items of object">{{items.names}}</li>
+        
+    
+</ul>
+    
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+    <h4 style="text-align: center;">TO-DO App</h4>
+
+    <div class="col-8">
+        <input type="text" class="form-control" #input>
+    </div>
+
+    <div class="col-4">
+        <button type="submit" class="btn  form-control" (click)="buttonFunction(input)">ADD</button>
+    </div>
+
+    <ul>
+        
+            <li *ngFor="let items of object">{{items.name}}</li>
+            
+        
+    </ul>
+</div>   
+
+
+    -->

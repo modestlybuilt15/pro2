@@ -13,19 +13,18 @@ export class Pro1Component implements OnInit {
   ngOnInit(): void {
   }
   
-  name = 'Everyone';
+  name = 'there..';
   idName="sampleid";
-  check=false;
+  email='';
+  pass='';
   change="";
+  
+  
 
 
   onclick(){
-    this.change="You are smart!!!!";
-
     
 
-
-    
   }
   
   
